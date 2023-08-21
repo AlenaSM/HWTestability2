@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate(double length_m, double weight_kg) {
-        double y = Math.pow(length_m, 2);
-        double result = (weight_kg / y);
+    public int calculate(double lengthM, double weightKg) {
+        double y = Math.pow(lengthM, 2);
+        double result = (weightKg / y);
         return (int) result;
     }
 }
